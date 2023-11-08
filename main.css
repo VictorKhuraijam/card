@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Hind:wght@300&family=Poppins:wght@100;200&family=Roboto:wght@100&display=swap');
+
+body{
+    background-color: rgb(173, 229, 211);
+    display: flex;
+}
+
+.card{
+    height: 425px;
+    width: 220px;
+    margin: 75px;
+    border-radius: 11px;
+    background-color: antiquewhite;
+}
+
+.image img{
+    width: 210px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+.container {
+margin: 5px;
+font-size: 12px;
+font-family: 'Poppins', sans-serif;
+}
+
+.bod{
+    margin-top: 12px;
+    font-family:  sans-serif;
+    font-weight: 100;
+    color: rgb(88, 104, 107);
+}
+
+.container bod p{
+    margin: 10px 0 0 5px;
+
+}
+
+.bod h2{
+    margin-left: 6px;
+    color: black;
+}
+
+.box span{
+border: 1px solid rgb(56, 50, 50);
+border-radius: 5px;
+margin: 0 0 0 5px;
+font-size: 11px;
+padding: 4px;
+
+}
+
+.button {
+    text-align: center;
+    margin: 20px;
+
+}
+
+.button button{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(207, 228, 223);
+    font-size: medium;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 156, 151);
+    cursor: pointer;
+}
+
+.button button:hover{
+    color: rgb(167, 199, 197);
+}
